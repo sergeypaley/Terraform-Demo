@@ -45,7 +45,7 @@ resource "azurerm_sql_server" "test" {
   administrator_login_password = "14052016Artem"
 }
 
-resource "azurerm_sql_database" "test" {
+#resource "azurerm_sql_database" "test" {
   name                = "terraform-sqldatabase"
   resource_group_name = "${azurerm_resource_group.test.name}"
   location            = "${azurerm_resource_group.test.location}"
