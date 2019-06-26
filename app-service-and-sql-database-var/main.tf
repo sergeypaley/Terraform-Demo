@@ -41,7 +41,7 @@ resource "azurerm_sql_server" "test" {
   resource_group_name          = "${azurerm_resource_group.test.name}"
   location                     = "${azurerm_resource_group.test.location}"
   version                      = "12.0"
-  administrator_login          = "seregapaley"
+  administrator_login          = "seregapaley@gmail.com"
   administrator_login_password = "14052016Artem"
 }
 
